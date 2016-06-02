@@ -2,7 +2,7 @@ package com.tools.utils;
 
 public class DateCalculator {
 
-    public static int calculateFullDays(MyCalendar startDate, MyCalendar endDate) {
+    public static int calculateFullDays(final MyCalendar startDate, final MyCalendar endDate) {
         int daysFromBaseDateForStartDate = startDate.daysFromBaseDate();
         int daysFromBaseDateForEndDate = endDate.daysFromBaseDate();
 
